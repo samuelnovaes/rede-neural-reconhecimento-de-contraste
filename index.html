@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Reconhecimento de Contraste</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div id="train-container" class="container">
+		<h3>Qual é o mais legível?</h3>
+		<div id="panel1" class="panel">
+			<span class="text">Olá Mundo!</span>
+		</div>
+		<div id="panel2" class="panel">
+			<span class="text">Olá Mundo!</span>
+		</div>
+		<br>
+		<button id="btn-train" class="btn">Treinar rede neural</button>
+	</div>
+	<div id="result-container" class="container">
+		<div id="panel-result" class="panel">
+			<span class="text">Olá Mundo!</span>
+		</div>
+		<br>
+		<button id="btn-run" class="btn">Novo resultado</button>
+		<br>
+		<button id="btn-back" class="btn">Voltar ao treinamento</button>
+	</div>
+	<div id="loading-container" class="container">
+		Treinando...
+		<br>
+		<meter id="loader" min="0" max="100"></meter>
+	</div>
+	<script src="brain.min.js"></script>
+	<script src="network.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+* {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.panel {
+	width: 200px;
+	height: 200px;
+	background-color: #eee;
+	float: left;
+	position: relative;
+	cursor: pointer;
+}
+
+.text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#panel1 {
+	color: black;
+	margin-right: 10px;
+}
+
+#panel2 {
+	color: white;
+}
+
+.container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	display: inline-block;
+}
+
+#result-container {
+	display: none;
+}
+
+#loading-container {
+	display: none;
+}
+
+#loader {
+	width: 410px;
+}
+
+.btn {
+	margin-top: 10px;
+}
