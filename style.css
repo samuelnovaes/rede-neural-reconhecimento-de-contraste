@@ -2,13 +2,21 @@
 	font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+	background-color: #555;
+}
+
+h3 {
+	color: #fff;
+}
+
 .panel {
 	width: 200px;
 	height: 200px;
 	background-color: #eee;
 	float: left;
 	position: relative;
-	cursor: pointer;
+	border: 1px solid #fff;
 }
 
 .text {
@@ -50,4 +58,15 @@
 
 .btn {
 	margin-top: 10px;
+	padding: 10px;
+	background-color: #008080;
+	color: #fff;
+	border: none;
+	outline: none;
+	width: 200px;
+	border: 1px solid #fff;
+}
+
+.btn:hover {
+	background-color: #00aaaa;
 }
