@@ -34,10 +34,12 @@ h3 {
 #panel1 {
 	color: black;
 	margin-right: 10px;
+	cursor: pointer;
 }
 
 #panel2 {
 	color: white;
+	cursor: pointer;
 }
 
 .container {
