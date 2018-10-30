@@ -1,9 +1,14 @@
+@font-face {
+	font-family: ubuntu;
+	src: url(ubuntu.ttf);
+}
+
 * {
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: ubuntu;
 }
 
 body {
-	background-color: #555;
+	background-color: #333;
 }
 
 h3 {
