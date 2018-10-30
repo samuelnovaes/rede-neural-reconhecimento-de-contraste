@@ -1,0 +1,16 @@
+{
+	"name": "rede-neural-reconhecimento-de-contraste-master",
+	"version": "1.0.0",
+	"description": "",
+	"main": "brain.min.js",
+	"scripts": {
+		"babel": "babel index.js --watch --out-file build.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"babel-cli": "^6.26.0",
+		"babel-preset-env": "^1.7.0"
+	}
+}

@@ -11,17 +11,21 @@ body {
 	background-color: #333;
 }
 
-h3 {
+h3, label {
 	color: #fff;
+}
+
+label {
+	font-size: 10pt;
 }
 
 .panel {
 	width: 200px;
 	height: 200px;
 	background-color: #eee;
-	float: left;
 	position: relative;
 	border: 1px solid #fff;
+	display: inline-block;
 }
 
 .text {
@@ -42,15 +46,6 @@ h3 {
 	cursor: pointer;
 }
 
-.container {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	text-align: center;
-	display: inline-block;
-}
-
 #result-container {
 	display: none;
 }
@@ -63,6 +58,11 @@ h3 {
 	width: 410px;
 }
 
+#btn-color {
+	margin-top: 5px;
+	cursor: pointer;
+}
+
 .btn {
 	margin-top: 10px;
 	padding: 10px;
@@ -72,6 +72,7 @@ h3 {
 	outline: none;
 	width: 200px;
 	border: 1px solid #fff;
+	cursor: pointer;
 }
 
 .btn:hover {
